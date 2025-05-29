@@ -114,6 +114,7 @@ class Player(GameObject):
         dy += self.vel_y
 
         # Check for collision with platforms
+        
         for platform in platforms:
             # Check for collision in x direction
             if platform.rect.colliderect(
